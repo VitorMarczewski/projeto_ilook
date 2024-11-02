@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 2.1vh;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden; /* Impede rolagem horizontal */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    margin-top: 10%;
+}
+
+form {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+form input {
+    height: 5vh;
+    margin-bottom: 2vh;
+    padding: 2%;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 5px ;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20%;
+}
+
+#entrar_btn {
+    width: 90%;
+    height: 7vh;
+    margin: 10px auto;
+    margin-bottom: 8%;
+    background-color: black;
+    color: white;
+    
+}
+
+#gerenciar_loja {
+    display: block;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+#logins_alternativos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.linha {
+    background-color: black;
+    height: 1px;
+    width: 30%;
+}
+#redes_sociais{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+#redes_sociais img{
+    width: 15%;
+    height: 15%;
+}
+
+#cadastrar {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
